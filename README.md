@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hello World - Next JS
 
-## Getting Started
+Simple Next JS project provided by AppSeed. For newcomers, **Next JS** is a popular web framework built on top of React that provides out-of-the-box many hot features used in modern web development: static and server rendering, smart bundling, Typescripts support without a complex configuration.  
 
-First, run the development server:
+![image](https://user-images.githubusercontent.com/51070104/120604977-375ceb00-c456-11eb-899b-20b385b962a6.png)
+
+<br />
+
+> How to use the code
+
+Before start using this project, please make sure you have a [Minimal Programming Kit](https://docs.appseed.us/content/tutorials/minimal-programming-kit) already installed and tools accessible in the terminal:
+
+- A modern editor - **VSCode** or **Atom**
+- **Nodejs** - used in Javascript-based products and tools
+- **Yarn** - a popular package manager for NodeJS (better than NPM)
+- **GIT** - a command-line tool used to download sources from Github
+
+<br />
+
+**Step #1** - Clone the source code
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/app-generator/hello-world-next-js.git
+$ cd hello-world-next-js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br />
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**Step #2** - Install modules using NPM or Yarn
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+$ npm install
+// OR
+$ yarn
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<br />
 
-## Learn More
+**Step #3** - Start the project (development mode)
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+$ npm run dev
+// OR
+$ yarn dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Next JS Resources
 
-## Deploy on Vercel
+For more resources, please access: 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next JS](https://nextjs.org/) - official website
+- [Getting Started with Next JS](https://docs.appseed.us/content/getting-started-with/next-js) - a comprehensive tutorial for beginners. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br />
+
+---
+Hello World in Next JS - provided by AppSeed [App Generator](https://appseed.us/)
