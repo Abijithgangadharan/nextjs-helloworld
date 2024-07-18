@@ -1,59 +1,70 @@
-# Hello World - Next JS
+# Getting Started with Create React App
 
-Simple Next JS project provided by AppSeed. For newcomers, **Next JS** is a popular web framework built on top of React that provides out-of-the-box many hot features used in modern web development: static and server rendering, smart bundling, Typescripts support without a complex configuration.  
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![image](https://user-images.githubusercontent.com/51070104/120604977-375ceb00-c456-11eb-899b-20b385b962a6.png)
+## Available Scripts
 
-<br />
+In the project directory, you can run:
 
-> How to use the code
+### `npm start`
 
-Before start using this project, please make sure you have a [Minimal Programming Kit](https://docs.appseed.us/content/tutorials/minimal-programming-kit) already installed and tools accessible in the terminal:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- A modern editor - **VSCode** or **Atom**
-- **Nodejs** - used in Javascript-based products and tools
-- **Yarn** - a popular package manager for NodeJS (better than NPM)
-- **GIT** - a command-line tool used to download sources from Github
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-<br />
+### `npm test`
 
-**Step #1** - Clone the source code
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```bash
-$ git clone https://github.com/app-generator/hello-world-next-js.git
-$ cd hello-world-next-js
-```
+### `npm run build`
 
-<br />
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**Step #2** - Install modules using NPM or Yarn
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```bash
-$ npm install
-// OR
-$ yarn
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<br />
+### `npm run eject`
 
-**Step #3** - Start the project (development mode)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```bash
-$ npm run dev
-// OR
-$ yarn dev
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<br />
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Next JS Resources
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-For more resources, please access: 
+## Learn More
 
-- [Next JS](https://nextjs.org/) - official website
-- [Getting Started with Next JS](https://docs.appseed.us/content/getting-started-with/next-js) - a comprehensive tutorial for beginners. 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-<br />
+To learn React, check out the [React documentation](https://reactjs.org/).
 
----
-Hello World in Next JS - provided by AppSeed [App Generator](https://appseed.us/)
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
